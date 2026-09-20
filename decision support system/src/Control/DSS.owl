@@ -1,0 +1,1248 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Aged_2-6years">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Vomiting"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#StrongSmellingUrine"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Enuresis"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#AbdominalPain"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PediatricUrinaryTractInfection"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Indigestion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#AbdominalPain">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations">
+    <owl:disjointWith>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Symptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Anxiety">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Rhinits">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#MouthSores">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ShortnessOfBreath">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PediatricUrinaryTractInfection">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#KidneyAndUrinaryDiseases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#IncreasedHeartRate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LossOfConsciousness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#IrregularPulse">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Enuresis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SleepProblems">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Edema">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PoorFeeding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Headaches">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Irritability">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Malaise">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Weakness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ValvularHeartDisease">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#WeightGain"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ShortnessOfBreath"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#IrregularHeartRate"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Edema"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Dizziness"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ChestPain"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HeartDiseases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#RibsPain">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ProfuseSweating">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Incontinence">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category">
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Symptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LossOfAppetite">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Vomiting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Tachcardia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NonProductiveCough">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Confusion">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Stroke">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HighBloodPressure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#MuscleWeakness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Delirium">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Photophobia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Echoproxia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Rash">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ll">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Fullness">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ChestPain">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LightHeadedness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BackPain">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#UrinarySymptoms">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Meningities">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NervousSystemDiseases"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Vomiting"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NeckStiffness"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Irritability"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Confusion"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Delirium"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Nausea"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Photophobia"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Headaches"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Sleepiness"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Coma"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#WeightGain">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#IrregularHeartRate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Chills">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#kk">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LowBloodPressure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Negativism">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#IncreasedRespirataryRate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Lukemia">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#pp"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ll"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#kk"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodDiseases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NeckStiffness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Echolalia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Thrombocytopenia">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#RedFlatSpots"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LossOfConsciousness"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Hypertension"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Headaches"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BlurredVision"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NoseBleeding"/>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#GumsBleeding"/>
+            </owl:someValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodInUrine"/>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodInStool"/>
+            </owl:someValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodDiseases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Aged_older_than_6years_and_adolescents">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Vomiting"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#StrongSmellingUrine"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Incontinence"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Enuresis"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BackPain"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#AbdominalPain"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PediatricUrinaryTractInfection"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Symptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Blotches">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodInUrine">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PersistentItching">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Waxy_Flexibility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SoreThroat">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NervousSystemDiseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#WeightLoss">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LungDiseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Catatonia">
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Meningities"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Withdrawal"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Waxy_Flexibility"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Negativism"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Mutism"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Echoproxia"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Echolalia"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NervousSystemDiseases"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BlurredVision">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Hemptysis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Hypertension">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Aged_0-2months">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Vomiting"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PoorFeeding"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Jaundice"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Irritability"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PediatricUrinaryTractInfection"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Dyspnea">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Aged_2months-2years">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Vomiting"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#StrongSmellingUrine"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PoorFeeding"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Irritability"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#AbdominalPain"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PediatricUrinaryTractInfection"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Tachypnea">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#RedFlatSpots">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NoseBleeding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HighFever">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Nausea">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#MentalProblems">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#StrongSmellingUrine">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ViralPneumonia">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ShortnessOfBreath"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Wheezing"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Headaches"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Rhinits"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Chills"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Fatigue"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Bradycordia"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Dullness"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NonProductiveCough"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Tachypnea"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Dyspnea"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LungDiseases"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Rash"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Tachcardia"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Myalgias"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Tuberculosis">
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ViralPneumonia"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#WeightLoss"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NightSweats"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Hemptysis"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Fatigue"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ChestPain"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LungDiseases"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Mutism">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NightSweats">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Sleepiness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodDiseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HeartDiseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Coma">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Fatigue">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#GumsBleeding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ChronicKidneyDisease">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ChestPain"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Edema"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#MuscleWeakness"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PersistentItching"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#MentalProblems"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#KidneyAndUrinaryDiseases"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Fatigue"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PediatricUrinaryTractInfection"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Vomiting"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ShortnessOfBreath"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SleepProblems"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Weakness"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Nausea"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HighBloodPressure"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LossOfAppetite"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#pp">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Jaundice">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#EasilyBleeding">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodInStool">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Bruises">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Myalgias">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LowGradeFever">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Wheezing">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#SignsAndSymptoms"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#KidneyAndUrinaryDiseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Dullness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Withdrawal">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Bradycordia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Dizziness">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#MyocardialInfarction">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ShortnessOfBreath"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LightHeadedness"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#IncreasedRespirataryRate"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Malaise"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HighBloodPressure"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Nausea"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ValvularHeartDisease"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Indigestion"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Fatigue"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Anxiety"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ChestPain"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#ProfuseSweating"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HeartDiseases"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Wheezing"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Fullness"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Pallor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#PhysicalExaminations"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#hasSymptoms">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Symptoms"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#isSymptomsOf"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#isSymptomsOf">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Category"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#Symptoms"/>
+  </owl:ObjectProperty>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#BloodDiseases"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#HeartDiseases"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#KidneyAndUrinaryDiseases"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#LungDiseases"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2018/5/DSS.owl#NervousSystemDiseases"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+</rdf:RDF>

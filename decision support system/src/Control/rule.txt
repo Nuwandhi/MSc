@@ -1,0 +1,15 @@
+@prefix base: <http://www.semanticweb.org/user/ontologies/2018/6/DSS#> 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+
+[1:(?p rdf:type base:Patient)(?p base:hasSymptom base:Fatigue)(?p base:hasSymptom base:ChestPain)(?p base:hasSymptom base:Malaise)(?p base:hasSymptom base:IncreasedHeartRate)(?p base:hasSymptom base:HighBloodPressure)(?p base:hasSymptom base:IrregularPulse)(?p base:hasSymptom base:IncreasedRespirataryRate)(?p base:hasSymptom base:Anxiety)(?p base:hasSymptom base:LightHeadedness)(?p base:hasSymptom base:Cough)(?p base:hasSymptom base:Nausea)(?p base:hasSymptom base:ShortnessOfBreath)(?p base:hasSymptom base:ProfuseSweating)(?p base:hasSymptom base:Wheezing)(?p base:hasSymptom base:Fullness)(?p base:hasSymptom base:Indigestion)->(?p base:hasDisease base:MyocardialInfarction)]
+
+[2:(?p rdf:type base:Patient)(?p base:hasSymptom base:Fatigue)(?p base:hasSymptom base:Fever)(?p base:hasSymptom base:Chills)(?p base:hasSymptom base:Rhinits)(?p base:hasSymptom base:Myalgias)(?p base:hasSymptom base:Headache)(?p base:hasSymptom base:Tachycardia)(?p base:hasSymptom base:Tachypnea)(?p base:hasSymptom base:Wheezing)(?p base:hasSymptom base:Rales)(?p base:hasSymptom base:Rash)(?p base:hasSymptom base:Dullness)->(?p base:hasDisease base:ViralPneumonia)]
+
+[3:(?p rdf:type base:Patient)(?p base:hasSymptom base:Fatigue)(?p base:hasSymptom base:Fever)(?p base:hasSymptom base:Cough)(?p base:hasSymptom base:WeightLoss)(?p base:hasSymptom base:NightSweat)(?p base:hasSymptom base:Hemoptysis)(?p base:hasSymptom base:ChestPain)->(?p base:hasDisease base:Tuberculosis)]
+
+[4:(?p rdf:type base:Patient)(?p base:hasSymptom base:NoseBleeding)(?p base:hasSymptom base:RedFlatSpots)(?p base:hasSymptom base:BloodInStool)(?p base:hasSymptom base:Blotches)(?p base:hasSymptom base:Bruises)(?p base:hasSymptom base:Headache)(?p base:hasSymptom base:BlurredVision)(?p base:hasSymptom base:LossOfConsciousness)(?p base:hasSymptom base:Hypertension)->(?p base:hasDisease base:Thrombocylopenia)]
+
+[5:(?p rdf:type base:Patient)(?p base:hasSymptom base:Fatigue)(?p base:hasSymptom base:Pallor)(?p base:hasSymptom base:Bruises)(?p base:hasSymptom base:BleedEasily)(?p base:hasSymptom base:SoreThroat)(?p base:hasSymptom base:Headache)(?p base:hasSymptom base:LowGradeFever)(?p base:hasSymptom base:SkinRash)(?p base:hasSymptom base:MouthSores)(?p base:hasSymptom base:WeightLoss)(?p base:hasSymptom base:VisualProblems)(?p base:hasSymptom base:MentalProblems)->(?p base:hasDisease base:Leukemia)]
+
+[6:(?p rdf:type base:Patient)(?p base:hasSymptom base:Fatigue)(?p base:hasSymptom base:ChestPain)(?p base:hasSymptom base:MuscleWeakness)(?p base:hasSymptom base:SleepProblems)(?p base:hasSymptom base:HighBloodPressure)(?p base:hasSymptom base:LossOfAppetite)(?p base:hasSymptom base:Vomiting)(?p base:hasSymptom base:Nausea)(?p base:hasSymptom base:MentalProblems)(?p base:hasSymptom base:Edema)(?p base:hasSymptom base:PersistentItching)(?p base:hasSymptom base:ShortnessOfBreath)(?p base:hasSymptom base:Weakness)->(?p base:hasDisease base:ChronicKidneyDisease)]
